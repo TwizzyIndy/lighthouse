@@ -307,7 +307,7 @@ class LighthouseIDA(LighthouseCore):
 
         """
 
-        if view_type == idaapi.BWN_DISASMS:
+        if view_type == idaapi.BWN_DISASM:
 
             idaapi.attach_action_to_popup(
                 view,
